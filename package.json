@@ -1,0 +1,27 @@
+{
+  "name": "reddit-auth",
+  "version": "1.0.0",
+  "description": "The project is a relatively simple Node.js Reddit account authentication application that needs to be duplicated or mirror the functionality of an existing repo and then setup on a DO droplet.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reddit"
+  ],
+  "author": "Shapon Pal <https://www.fiverr.com/shapon_pal>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "luxon": "^3.5.0",
+    "node-fetch": "^3.3.2",
+    "passport": "^0.7.0",
+    "passport-reddit": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
